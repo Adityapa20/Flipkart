@@ -8,7 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 public class FlipkartBaseClass {
 
 	protected static WebDriver driver;
-
+// this base class   for reuse pagefactory element ............
+	
    public FlipkartBaseClass(WebDriver driver){
 		this.driver= driver;
 		PageFactory.initElements(driver, this);
