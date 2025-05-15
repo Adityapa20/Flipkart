@@ -12,7 +12,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.BaseClass.*;
-
+// this is test class calling all pom classes.......
 public class Test1 {
 	WebDriver driver;
 	
